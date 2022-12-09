@@ -1,0 +1,9 @@
+ROS_NAMESPACE=fei_lrs_drone/stereo_camera rosrun stereo_image_proc stereo_image_proc
+
+NEW TAB
+rosrun image_view stereo_view stereo:=/fei_lrs_drone/stereo_camera/ image:=image_rect_color
+
+PATH K PROJEKTU
+source ./devel/setup.bash
+sh /snap/clion/current/bin/clion.sh
+
